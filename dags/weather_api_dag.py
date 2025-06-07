@@ -11,9 +11,7 @@ from datetime import timedelta
 
 import requests
 
-
 DAG_FOLDER = "/opt/airflow/dags"
-
 
 def _get_weather_data():
     #assert 1==2
