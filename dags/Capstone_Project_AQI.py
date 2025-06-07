@@ -131,7 +131,7 @@ default_args = {
     "retry_delay": timedelta(minutes=1),
     "start_date": timezone.datetime(2025, 1, 1)
 }
-
+ 
 with DAG(
     "weather_api_dag_capstone",
     default_args=default_args,
